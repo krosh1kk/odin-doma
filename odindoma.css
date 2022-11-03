@@ -1,0 +1,138 @@
+body {
+    letter-spacing: 1px;
+    font-weight: 700;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+    background-color: rgba(28, 49, 26, 0.8);
+    color: white;
+     /* background: url(ocr.jpg) no-repeat center center fixed; */
+     /* background-size: cover;  */
+}
+
+.form h4 {
+    text-align: center;
+   }
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}   
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background:transparent;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+
+
+.btn {
+    background: rgb(209, 119, 119);
+   border: none;
+   border-radius: 5px;
+   padding: 5px 5px;
+   cursor: pointer;
+   font-family: inherit;
+}
+
+
+
+.imgg {
+    width: 300px;
+    border-width: 5px;
+    border-style: 5px;
+    border-color: blue;
+    border-radius: 28px; 
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+
+.avatar {
+    width: 100px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.a1 {
+    border-bottom: 2px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    padding: 10px;
+    background-color:rgb(13, 184, 118);
+}
+.a1:hover {
+    background: rgba(204, 149, 149, 0.856);
+}
+
+.plot {
+    color: white;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+  .menu a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #003b03;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(198, 241, 198);
+    border-bottom: 5px solid #03993d;
+  }
+
+  .menu li {
+    display: inline;
+  }
+
+  .menu li {
+    float: left;
+  }
+
+  .menu li {
+    float: right;
+  }
+  
+a:hover {
+    color: rgba(126, 21, 21, 0.829);
+}
+
+.container {
+    max-width: 750px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+
+
+@media (max-width: 500px) { 
+    .container{ 
+        font-size: 1.5rem; 
+        padding: 10px; 
+       text-align: center;
+    }
+} 
+
+                           
